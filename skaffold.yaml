@@ -4,7 +4,7 @@ metadata:
   name: price-pred-ml-with-kube
 build:
   artifacts:
-    - image: hdingdockerdesktop/price-pred-ml-kube
+    - image: hdingdockerdesktop/price-pred-ml-with-kube
       docker:
         dockerfile: Dockerfile
   tagPolicy:
